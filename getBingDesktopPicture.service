@@ -1,0 +1,8 @@
+[Unit]
+Wants=get_bing_desktop_pic.timer
+Description=Get the Bing Desktop daily picture and set it as background
+
+[Service]
+ExecStart=/usr/local/bin/get_bing_desktop_pic.sh
+Restart=on-failure
+RestartSec=120s

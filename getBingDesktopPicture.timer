@@ -1,0 +1,12 @@
+[Unit]
+Description=Get the Bing Desktop daily picture and set it as background
+
+[Timer]
+OnActiveSec=30s
+OnCalendar=*-*-* 07:10:00
+OnUnitActiveSec=5h
+Persistent=true
+Unit=get_bing_desktop_pic.service
+
+[Install]
+WantedBy=timers.target
