@@ -4,7 +4,7 @@ Download the Bing Desktop daily picture and set it as background.
 Written in bash.
 
 ### Installing
-For other Desktop Environments than Cinnamon you have to edit the line 26 in the "getBingDesktopPicture.sh" file:
+For other Desktop Environments than Cinnamon you have to edit the line 26 in the *getBingDesktopPicture.sh* file:
 ```bash
 gsettings set org.cinnamon.desktop.background picture-uri  "file://$(pwd)/$varPicName"`
 ```
