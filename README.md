@@ -16,7 +16,6 @@ Put the *getBingDesktopPicture.sh* file in `/usr/local/bin/`.
 Put the *getBingDesktopPicture.timer* and *getBingDesktopPicture.service* file in `~/.config/systemd/user/`.<br/>
 Execute `systemctl --user enable getBingDesktopPicture.timer` to enable the timer.<br/>
 To list all user timers execute `systemctl --user list-timers --all`
-re are some useful links:
 <br/>
 <br/>
 
