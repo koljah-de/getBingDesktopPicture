@@ -19,7 +19,7 @@ To list all user timers execute `systemctl --user list-timers --all`
 <br/>
 <br/>
 
-**Here are some useful links:**
+### Here are some useful links:
  - https://wiki.archlinux.org/index.php/Systemd/Timers
  - https://wiki.archlinux.org/index.php/Systemd/User
  - https://www.freedesktop.org/software/systemd/man/systemd.time.html#Parsing%20Time%20Spans
